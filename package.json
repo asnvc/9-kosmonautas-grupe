@@ -1,0 +1,13 @@
+{
+  "name": "9-kosmonautas-grupe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost  --port=4209",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Deividas",
+  "license": "ISC"
+}
