@@ -1,0 +1,15 @@
+     header {
+            background-color: yellow;
+            width:800px;
+            margin-left: calc(50% - 400px);
+        }
+        main{
+            background-color: green;
+            width:800px;
+            margin-left: calc(50% - 400px);
+        }
+        footer{
+            background-color: red;
+            width: 800px;
+            margin-left: calc(50% - 400px);
+        }
