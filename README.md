@@ -7,7 +7,6 @@ website design project
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/42-grupe-astronautas/
 
 Design: Astronautas
 
@@ -34,7 +33,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
 ```
-git clone https://github.com/front-end-by-rimantas/41-grupe-ufo.git
+git clone https://github.com/xzcjdvd/9-kosmonautas-grupe
 ```
 2. Install NPM packages
 ```
