@@ -6,17 +6,17 @@
         main,
         footer {
             display: inline-block;
-            background-color: yellow;
-            width:800px;
-            margin-left: calc(50% - 400px);
+            width:1000px;
+            margin-left: calc(50% - 500px);
             margin-bottom:30px;
-            
+            background-color: yellow;
         }
+
         header{ 
         margin-top: 40px;
         }
 
-        img {
+        header > img {
             width: 100px;
             height: 40px;
             object-fit: contain;
@@ -29,7 +29,7 @@
             float:right;
         }
 
-        a {
+        nav > a {
             display: inline-block;
             margin-left: 2em;
             color: #000;
@@ -40,11 +40,46 @@
 
         }
         
-        a:first-child{
+        nav > a:first-child{
             margin-left: 0;
         }
 
-        a:hover{
+        nav > a:hover{
             text-decoration: underline;
         }
-        
+
+        div{
+            width: 40%;
+            float:left;
+
+        }
+        h1{
+            font-size: 50px;
+            color: #222222;
+            font-weight: normal;
+
+        }
+        h1 > span {
+            display: block;
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 20px;
+
+        }
+
+        div > a{
+            background-color: red;
+
+        }
+
+        div > a:nth-child(4){
+            background-color: blue;
+        }
+
+       main > img{
+            width: 55%;
+            float:right;
+
+        }
