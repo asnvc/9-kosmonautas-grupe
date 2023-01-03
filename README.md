@@ -8,8 +8,8 @@ website design project
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
 
-Design: [Astronautas](https://cdn.dribbble.com/users/1355613/screenshots/5964475/space.gif)
-Site published at: https://xzcjdvd.github.io/9-kosmonautas-grupe/
+- Design: [Astronautas](https://cdn.dribbble.com/users/1355613/screenshots/5964475/space.gif)
+- Site published at: https://xzcjdvd.github.io/9-kosmonautas-grupe/
 
 
 # 🎯 Project features/goals
