@@ -2,20 +2,22 @@
             margin:0;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
-        header,
-        main,
-        footer {
+
+        /* header,main,footer */
+        .container{
             display: inline-block;
             width:1000px;
             margin-left: calc(50% - 500px);
             margin-bottom:30px;
         }
 
-        header{ 
+        /* header */
+        .container:first-child{ 
         margin-top: 40px;
         }
-
-        header > img {
+        
+        /* img */
+        .logo {
             width: 100px;
             height: 40px;
             object-fit: contain;
@@ -23,12 +25,14 @@
             float: left;
         }
 
-        nav {
+        /* nav */
+        .main-menu {
             margin-top: 10px;
             float:right;
         }
 
-        nav > a {
+        /* nav > a */
+        .main-menu > .link{
             display: inline-block;
             margin-left: 2em;
             color: #000;
@@ -39,36 +43,42 @@
 
         }
         
-        nav > a:first-child{
+        .link:first-child{
             margin-left: 0;
         }
 
-        nav > a:hover{
+        .link:hover{
             text-decoration: underline;
         }
 
-        main > div{
+        /* main > div */
+        .left-collum{
             width: 40%;
             float:left;
 
         }
-        h1{
+
+        /* h1 */
+        .main-tittle{
             font-size: 50px;
             color: #222222;
             font-weight: normal;
 
         }
-        h1 > span {
+
+        .main-tittle > span {
             display: block;
             font-weight: bold;
         }
 
-        div > p{
+        /* p */
+        .description{
             font-size: 20px;
 
         }
 
-        main > div > a{
+        /* a */
+        .button{
             float: left;
             padding: 0.9em;
             padding-left: 2em;
@@ -88,18 +98,18 @@
 
         }
 
-        div > a:nth-child(4){
+       .button:nth-child(4){
             background-color: #fff;
             color: #662C86;
             
     
         }
 
-        div > a:hover{
+        .button:hover{
             box-shadow: 3px  4px 10px 0px rgba(0, 0, 0, 0.2);
         }
 
-       main > img{
+        .right-collum{
             width: 55%;
             float:right;
 
@@ -109,11 +119,15 @@
 
        }
 
-       footer > div{
+      .socials{
             float: left;
        }
 
-       footer > p {
+       .socials > .icon{
+        
+       }
+
+       .copyright {
             float:right;
             margin: 0;
        }
