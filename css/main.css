@@ -116,17 +116,22 @@
             float:right;
         }
 
-        .right-column > img {
+        .right-collum > img{
             width: 100%;
         }
 
-        .right-column > .img-grey, .right-column:hover > .img-color {
-    display: block;
+        .right-collum > .img-grey,
+        .right-collum:hover > .img-color {
+            display: block;
         }
 
-        .right-column > .img-color, .right-column:hover > .img-grey {
-    display: none;
-}
+        .right-collum > .img-color,
+        .right-collum:hover > .img-grey {
+            display: none;
+        }
+
+
+    
 
       .socials{
             float: left;
