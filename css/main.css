@@ -63,6 +63,7 @@
             font-size: 50px;
             color: #222222;
             font-weight: normal;
+            position: relative;
 
         }
 
@@ -71,14 +72,19 @@
             font-weight: bold;
         }
 
-        .red{
-            color: red;
+        .main-tittle::after{
+            content: '';
+            display: block;
+            width: 110px;
+            height: 6px;
+            background-color: #662C86;
+            position: absolute;
+           
         }
 
         /* p */
         .description{
             font-size: 20px;
-
         }
 
         /* a */
@@ -96,10 +102,7 @@
             text-transform: uppercase;
             text-decoration: none;
             border-radius: 999em;  /*  1.55em tiksli reiksme  */
-            border: 0.15em solid #662C86;;
-           
-            
-
+            border: 0.15em solid #662C86;
         }
 
        .button:nth-child(4){
@@ -129,13 +132,10 @@
         .right-collum:hover > .img-grey {
             display: none;
         }
-
-
-    
-
-      .socials{
+        
+        .socials{
             float: left;
-       }
+        }
 
        .socials > .icon{
         margin-right: 1em;
@@ -143,7 +143,6 @@
         line-height: 1em;
         text-decoration: none;
         color: #888
-
         }
 
         .socials > .icon:hover{
